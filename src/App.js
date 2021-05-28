@@ -9,6 +9,9 @@ function App() {
         <p>
           This site is being built.
         </p>
+        <p>
+          Update!
+        </p>
       </header>
     </div>
   );
