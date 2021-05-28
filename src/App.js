@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './assets/App.css';
 
 function App() {
   return (
@@ -8,9 +8,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           This site is being built.
-        </p>
-        <p>
-          Updated from git push!
         </p>
       </header>
     </div>
