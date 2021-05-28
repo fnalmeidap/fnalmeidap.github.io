@@ -10,7 +10,7 @@ function App() {
           This site is being built.
         </p>
         <p>
-          Update!
+          Updated from git push!
         </p>
       </header>
     </div>
