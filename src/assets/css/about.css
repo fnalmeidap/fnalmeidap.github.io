@@ -49,6 +49,7 @@
   color: white;
   margin-bottom: 1.8em;
 }
+
 #middle-title{
   color: white;
 }
@@ -56,6 +57,44 @@
 .middle-col{
   margin-top: 1.2em;
 }
+
 .middle-col img{
   height: 4.8em;
+}
+
+.about-end{
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.main-title{
+  font-weight: 700;
+}
+
+.about-end .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.accordion{
+  width: 50%;
+}
+
+.accordion-body{
+  text-align: justify;
+}
+
+@media(max-width: 768px){
+
+  .about-end .container{
+    flex-direction: column;
+  }
+
+  .accordion{
+    margin-top: 1.6em;
+    width: 100%;
+  }
+
 }
