@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.css";
+import "../../assets/css/navbar.css";
 
 class NavBar extends Component {
   render() {
@@ -27,17 +27,17 @@ class NavBar extends Component {
             >
               <ul class="navbar-nav ">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <a class="nav-link" aria-current="page" href="/">
                     Home
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="/about">
                     About
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="/projects">
                     Projects
                   </a>
                 </li>
@@ -57,14 +57,14 @@ class NavBar extends Component {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="/ta">
                         IF678 - Infracom
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="/contact">
                     Contact
                   </a>
                 </li>
