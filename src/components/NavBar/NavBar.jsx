@@ -5,13 +5,13 @@ class NavBar extends Component {
   render() {
     return (
       <section className="nav-bar">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light flex-sm-nowrap flex-wrap" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" target="blank" href="https://google.com">
-              
+            <a class="navbar-brand" href="#">
+              fnalmeidap.github.io
             </a>
             <button
-              class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2"
+              class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"
@@ -21,8 +21,11 @@ class NavBar extends Component {
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mx-auto">
+            <div
+              class="collapse navbar-collapse flex-grow-0"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav ">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">
                     Home
@@ -30,17 +33,39 @@ class NavBar extends Component {
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    About me
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Blog
+                    About
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                     Projects
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Teaching Assitent
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        IF678 - Infracom
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Contact
                   </a>
                 </li>
               </ul>

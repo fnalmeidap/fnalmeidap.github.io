@@ -1,0 +1,12 @@
+.footer{
+  display: flex;
+}
+.navbar{
+  justify-content: space-around;
+}
+
+.footer-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+  color: rgba(255,255,255,.85);
+}
