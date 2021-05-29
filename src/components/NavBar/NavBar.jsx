@@ -32,12 +32,12 @@ class NavBar extends Component {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/about">
+                  <a class="nav-link" href="/#/about">
                     About
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/projects">
+                  <a class="nav-link" href="/#/projects">
                     Projects
                   </a>
                 </li>
@@ -57,14 +57,14 @@ class NavBar extends Component {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="/ta">
+                      <a class="dropdown-item" href="/#/ta">
                         IF678 - Infracom
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/contact">
+                  <a class="nav-link" href="/#/contact">
                     Contact
                   </a>
                 </li>
