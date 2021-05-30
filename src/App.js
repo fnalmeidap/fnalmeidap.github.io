@@ -8,6 +8,7 @@ import Banner from "./pages/Banner";
 import About from "./pages/About"
 import Projects from "./pages/Projects"
 import TA from "./pages/TA"
+import Blog from "./pages/Blog"
 import Contact from "./pages/Contact"
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
         </Switch>
         <Footer></Footer>

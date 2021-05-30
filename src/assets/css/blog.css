@@ -1,0 +1,31 @@
+.blog-title{
+  font-weight: 300;
+}
+
+.blog-banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6em;
+}
+
+.blog-banner .text-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-muted{
+  width: 38rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.blog-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.my-btn{
+  width: 10em;
+  margin: 0.2em;
+}
