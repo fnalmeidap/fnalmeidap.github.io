@@ -5,7 +5,7 @@ class Projects extends Component{
   render(){
     return (
       <section className="projects">
-        <h1>Hi, im in Projects!</h1>
+        <h1>Under construction.</h1>
       </section>
     );
   }

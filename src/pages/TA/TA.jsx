@@ -5,7 +5,7 @@ class TA extends Component{
   render(){
     return (
       <section className="ta">
-        <h1>Hi, im in TA!</h1>
+        <h1>Under construction.</h1>
       </section>
     );
   }

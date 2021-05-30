@@ -6,6 +6,7 @@ import arcade from "../../assets/img/maquina-de-arcade.png";
 import math from "../../assets/img/square-root.png";
 import network from "../../assets/img/browser.png";
 import phyandeletro from "../../assets/img/electronic-circuit.png";
+import python from "../../assets/img/pitao.png";
 
 import me from "../../assets/img/me.jpeg";
 
@@ -107,14 +108,22 @@ class About extends Component {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-
-                    The process of creating a way to analyze 2D Soccer Simulation
-                    games was so good and seemingly new among the competition teams
-                    that we decided to write an article about it and submit to the <b>Latin American
-                    Robotics Symposium LARS</b> at the <b>8th Brazilian Symposium of Robotics</b>. 
-                    We got accepted and i virtually presented what we did in the article. 
-                    This also granted us a publication in the <b>IEEXplore</b>. Link
-                     is <a target="blank" href="https://ieeexplore.ieee.org/document/9307104">here</a>.
+                    The process of creating a way to analyze 2D Soccer
+                    Simulation games was so good and seemingly new among the
+                    competition teams that we decided to write an article about
+                    it and submit to the{" "}
+                    <b>Latin American Robotics Symposium LARS</b> at the{" "}
+                    <b>8th Brazilian Symposium of Robotics</b>. We got accepted
+                    and i virtually presented what we did in the article. This
+                    also granted us a publication in the <b>IEEXplore</b>. Link
+                    is{" "}
+                    <a
+                      target="blank"
+                      href="https://ieeexplore.ieee.org/document/9307104"
+                    >
+                      here
+                    </a>
+                    .
                   </div>
                 </div>
               </div>
@@ -138,10 +147,11 @@ class About extends Component {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                      In July 2019 i had my first experience coding a real application from scratch in
-                      a hackatoon presented by our centre's PET team. There i had a one week bootcamp 
-                      about web technologies that we would use in the event such as <b>Javascript, HTML, CSS,
-                      React</b> and <b>Node.js</b>.
+                    In July 2019 i had my first experience coding a real
+                    application from scratch in a hackatoon presented by our
+                    centre's PET team. There i had a one week bootcamp about web
+                    technologies that we would use in the event such as{" "}
+                    <b>Javascript, HTML, CSS, React</b> and <b>Node.js</b>.
                   </div>
                 </div>
               </div>
@@ -165,19 +175,176 @@ class About extends Component {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    This is my best project so far! Here i had to design
-                    and develop a framework to analyze through a heavy load
-                    of data from the RobôCIn team robots and ML Agents.
-                    To do this i used technlogies such as <b>Linux, Python, Pandas, Docker </b> 
-                     and <b>React</b>.
+                    This is my best project so far! Here i had to design and
+                    develop a framework to analyze through a heavy load of data
+                    from the RobôCIn team robots and Machine Learning Agents. To
+                    do this i used technologies such as{" "}
+                    <b>Linux, Python, Pandas, Docker </b>
+                    and <b>React</b>.
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </nav>
-        <nav className="about-know-more">
+        <nav className="about-tech">
+          <div className="container">
+            <h2 className="about-title">Technologies i've used</h2>
+            <p id="main-tech-subtitle">Click for more details.</p>
+            <div class="row">
+              <div class="col">
+                <button
+                  className="btn about-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#python-modal"
+                >
+                  Python
+                </button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn" data-bs-toggle="modal" 
+                data-bs-target="#cpp-modal">C/C++</button>
+              </div>
+
+              <div class="col">
+                <button className="btn about-btn">Java</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Haskell</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">JS/TS</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <button className="btn about-btn">Node.js</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Anaconda</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Jupyter</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Pandas</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">PyCharm</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <button className="btn about-btn">Docker</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Kubernetes</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Terraform</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">SQL</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Express</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <button className="btn about-btn">Linux</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Shell</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Flask</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">React</button>
+              </div>
+              <div class="col">
+                <button className="btn about-btn">Express</button>
+              </div>
+            </div>
+          </div>
         </nav>
+        <nav className="about-know-more">
+          <div className="container">
+            <h2 className="main-title">Check out my projects!</h2>
+            <button type="button" class="btn btn-primary btn-lg">
+              Projects page
+            </button>
+          </div>
+        </nav>
+
+        {/*Modals*/}
+        <div
+          class="modal fade"
+          id="python-modal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Python
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">...</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="cpp-modal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  C/C++
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">...</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     );
   }

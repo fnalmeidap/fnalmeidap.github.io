@@ -96,5 +96,49 @@
     margin-top: 1.6em;
     width: 100%;
   }
+}
 
+.about-tech{
+  background-color: #e6ffe6;
+  padding-bottom: 3.6em;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2vh;
+}
+
+.about-btn{
+  width: 100%;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 2.5vh 4vh;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+  box-shadow: 2px 2px 2px #CCC;
+}
+
+.btn-img{
+  height: 3.2em;
+}
+
+.about-btn:hover{
+  color: white;
+  background-color: #99e699;
+  -webkit-transform: translateY(-2px);
+	transform: translateY(-2px);  
+  box-shadow: 3px 3px 3px #CCC;
+}
+
+.about-know-more{
+  background-color: white;
+}
+
+#main-tech-subtitle{
+  padding-bottom: 2.3em;
 }
