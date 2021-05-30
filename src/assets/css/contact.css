@@ -4,14 +4,7 @@
 .contact{
   font-family: 'Poppins', sans-serif;
   background-color: white;
-  justify-content: space-evenly;
-  height: 90vh;
-}
 
-.contact-banner{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .contact-banner h1{
@@ -21,21 +14,36 @@
   margin-bottom: 3.6em;
 }
 
-.col{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
 .contact-image{
   width: 6.2em;
   padding-bottom: 2em;
 }
+
 .contact-links{
-  flex-direction: column;
+  display: flex;
   justify-content: space-evenly;
+  margin-bottom: 2.6em;
+}
+
+.contact-links .link-item{
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-email{
-  margin-top: 3.6em;
+  margin-top: 8.2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-email h2{
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#fnap{
+  margin-top: 0;
+  margin-bottom: 2.6em;
 }
