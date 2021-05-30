@@ -1,0 +1,35 @@
+.contact{
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+
+.contact-banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact-banner h1{
+  color: black;
+  font-weight: 700;
+  margin-top: 1.6em;
+  margin-bottom: 3.6em;
+}
+
+.col{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-image{
+  width: 6.2em;
+  padding-bottom: 2em;
+}
+.contact-links{
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
