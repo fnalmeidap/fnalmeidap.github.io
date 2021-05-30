@@ -41,7 +41,12 @@ class NavBar extends Component {
                     Projects
                   </a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="/#/blog">
+                    Blog
+                  </a>
+                </li>
+{/*                <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -62,7 +67,7 @@ class NavBar extends Component {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li class="nav-item">
                   <a class="nav-link" href="/#/contact">
                     Contact
