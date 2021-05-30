@@ -8,8 +8,8 @@ class Banner extends Component {
         <nav className="landing-nav">
           <div className="landing-text">
             <h1>Felipe Nunes de Almeida Pereira</h1>
-            <h3>Engenharia da Computação - 2018.2</h3>
-            <h4>Centro de Informática - UFPE</h4>
+            <h3>Computer Engineering - 2018.2</h3>
+            <h4>Informatics Centre - UFPE</h4>
           </div>
         </nav>
       </section>

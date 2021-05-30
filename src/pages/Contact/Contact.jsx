@@ -34,6 +34,9 @@ class Contact extends Component {
               </div>
             </div>
           </div>
+          <div className="contact-email">
+            <h1>Email me through: <b id="ht">fnap@cin.ufpe.br</b></h1>
+          </div>
         </nav>
       </section>
     );

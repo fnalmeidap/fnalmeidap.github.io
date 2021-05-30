@@ -1,3 +1,6 @@
+#ht{
+  color: #2eb82e !important; 
+}
 .contact{
   font-family: 'Poppins', sans-serif;
   background-color: white;
@@ -33,3 +36,6 @@
   justify-content: space-evenly;
 }
 
+.contact-email{
+  margin-top: 3.6em;
+}
