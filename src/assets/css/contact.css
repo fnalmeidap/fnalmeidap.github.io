@@ -3,8 +3,6 @@
 }
 .contact{
   font-family: 'Poppins', sans-serif;
-  background-color: white;
-
 }
 
 .contact-banner h1{
@@ -32,7 +30,9 @@
 }
 
 .contact-email{
-  margin-top: 8.2em;
+  background-color: whitesmoke;
+  margin-top: 5.2em;
+  padding-top: 3.2em;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -46,5 +46,5 @@
 
 #fnap{
   margin-top: 0;
-  margin-bottom: 2.6em;
+  margin-bottom: 2.3em;
 }
