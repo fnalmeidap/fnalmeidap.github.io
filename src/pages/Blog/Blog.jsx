@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../assets/css/blog.css";
+import Card from "../../components/Card"
 
 class Blog extends Component {
   render() {
@@ -11,7 +12,7 @@ class Blog extends Component {
             <p className="text-muted">
               Sometimes i like to write about a subject that arouse my
               curiosity. I try to understand how something works and then
-               ought to explain it with my own simple words and drawings.
+               seek to explain it with my own simple words and drawings.
             </p>
           </div>
           <div className="blog-btn">
@@ -22,6 +23,17 @@ class Blog extends Component {
               Go to home
             </a>
           </div>
+        </nav>
+        <nav className="blog-cards">
+          <Card
+            title="Thoughts about flux"
+            text="A small essay about the concept of flux seen
+            in a intuitive perspective and then into a mathematical
+            one."
+            date="12/09/2020"
+            link="https://medium.com/@fnap/thoughts-about-flux-2505073cca6d"
+          ></Card>
+
         </nav>
       </section>
     );

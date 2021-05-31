@@ -21,6 +21,7 @@
 }
 
 .blog-btn{
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -28,4 +29,12 @@
 .my-btn{
   width: 10em;
   margin: 0.2em;
+}
+
+.blog-cards{
+  background-color: whitesmoke;
+  margin-top: 4.6em;
+  padding-top: 6.4em;
+  display: flex;
+  flex-direction: column;
 }
