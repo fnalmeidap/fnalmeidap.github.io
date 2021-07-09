@@ -32,7 +32,7 @@ class Curriculum extends Component {
                 class="btn btn-primary"
                 target="blank"
                 href={portuguese}
-                download="fnap_cv"
+                download="fnap_cv_pt"
                 role="button"
               >
                 Português
@@ -43,7 +43,7 @@ class Curriculum extends Component {
                 class="btn btn-primary"
                 target="blank"
                 href={english}
-                download="fnap_cv"
+                download="fnap_cv_en"
                 role="button"
               >
                 English
