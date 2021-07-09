@@ -1,0 +1,41 @@
+.contact{
+  font-family: 'Poppins', sans-serif;
+}
+
+#ht{
+  display: inline;
+  color: #2eb82e !important; 
+}
+
+#comma{
+  display: inline;
+}
+
+.main-section{
+  display: flex;
+}
+
+.main-text{
+  margin-top: 6.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-container-curriculum{
+  font-size: large !important;
+  width: 47%;
+}
+
+.main-buttons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.8rem;
+  justify-content: space-around;
+}
+
+.cv-links{
+  display: flex;
+  margin-top: 5.8rem;
+  margin-bottom: 7.8rem;
+  justify-content: space-evenly;
+}

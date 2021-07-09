@@ -10,6 +10,7 @@ import Projects from "./pages/Projects"
 import TA from "./pages/TA"
 import Blog from "./pages/Blog"
 import Contact from "./pages/Contact"
+import Curriculum from "./pages/Curriculum"
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog></Blog>
+          </Route>
+          <Route path="/curriculum">
+            <Curriculum></Curriculum>
           </Route>
         </Switch>
         <Footer></Footer>
