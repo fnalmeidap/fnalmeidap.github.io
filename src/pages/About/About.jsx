@@ -82,7 +82,7 @@ class About extends Component {
           </div>
         </nav>
         <nav className="about-end">
-          <div className="container">
+          <div className="container whid-acc">
             <div className="about-end-description">
               <h1 className="main-title">What have i already done?</h1>
             </div>

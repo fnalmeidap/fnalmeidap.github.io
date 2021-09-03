@@ -69,11 +69,13 @@
 
 .main-title{
   font-weight: 700;
+  padding-top: 1.6rem;
+  padding-bottom: 3rem;
 }
 
 .about-end .container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   
 }
