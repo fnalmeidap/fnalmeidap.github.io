@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../../assets/css/curriculum.css";
 import english from "../../assets/files/fnap_cv_en.pdf";
-import portuguese from "../../assets/files/fnap_cv_pt.pdf";
+import portuguese from "../../assets/files/fnap_cv_ptbr.pdf";
 
 class Curriculum extends Component {
   render() {
