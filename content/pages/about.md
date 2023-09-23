@@ -1,23 +1,30 @@
 ---
 title: About
 description: 'Hugo, the world''s fastest framework for building websites'
-author: Hugo Authors
+author: Felipe Pereira
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+If you're looking to my resume, see [curriculum](https://fnalmeidap.github.io/pages/curriculum/).
 
-Hugo makes use of a variety of open source projects including:
+Hello, I'm Felipe Pereira.
+I am a student of B.Sc of Computer Engineering and a Software Engineer at a payments company. I enjoy tackleling projects that challenge me learn and implement things that i have not used or learned yet. My main areas of knowldge are distributed systems, microservices and autonomous agents. 
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I have mainly designed and implemented microservices in Kotlin and C#, and worked extensively with API Gateways. I do my best to write code for people and not for computers and strongly believe that software and technology are the best tools for humans to create great things and do good. 
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+> ##### I believe that software empowers me to express who I am and help others.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+Also, I'm a member of [RobôCIn](https://robocin.com.br/), a robotics group from the Informatics Centre of Universidade Federal de Pernambuco (CIn - UFPE), in Brazil. There I did extensive work in numerous areas from Data Analysis to Shellscripting to Autonomous Agents development and Research.
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+# Core technologies
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+<ins>**Programming languages**</ins>: Kotlin, C#, C++, Java, Python, Go, Powershell <br>
+<ins>**Frameworks**</ins>: Spring Boot, .NET Core <br>
+<ins>**Databases**</ins>: Microsoft SQL Server, MongoDB, PostgresSQL, SQLite <br>
+<ins>**DevOps**</ins>: Azure, AWS, Docker, Kubernetes, Elasticsearch <br>
+<ins>**SO**</ins>: Linux, PopOS, Ubuntu, Mint <br>
+<ins>**Areas of interest**</ins>: Software Engineering, Site Reliability Engineering, Software Architecture, Software Testing, Distributed Systems, Autonomous Agents, Machine Learning
+
+# Publications
+
+- A Library and Web Platform for RoboCup Soccer Matches Data Analysis, 2021. See it on [Springer](https://link.springer.com/chapter/10.1007/978-3-031-28469-4_15).
+- A data analysis graphical user interface for robocup 2d soccer simulation league, 2020. See it on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9307104).

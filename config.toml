@@ -41,9 +41,9 @@ disqusShortname = ''
     url = '/'
     weight = 10
   [[menu.main]]
-    pageRef="posts"
-    name = '~/posts'
-    url = '/posts/'
+    pageRef="blog"
+    name = '~/blog'
+    url = '/blog/'
     weight = 20
   [[menu.main]]
     pageRef="about"
@@ -51,9 +51,9 @@ disqusShortname = ''
     url = '/about/'
     weight = 30
   [[menu.main]]
-    pageRef="else"
-    name = '~/else'
-    url = '/about/'
+    pageRef="curriculum"
+    name = '~/curriculum'
+    url = '/curriculum/'
     weight = 30
 
 [params]
@@ -62,7 +62,7 @@ disqusShortname = ''
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "Software engineer @ Acqio"
+  description = "Software engineer & Researcher"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
@@ -84,7 +84,10 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Felipe Pereira"
   name = "Felipe Nunes de Almeida Pereira"
-  description = "Software engineer & Researcher"
+  description = "Software Engineer & Researcher"
+  descriptionOne = ""
+  descriptionTwo = ""
+  descriptionThree = ""
 
 # Allow to override webmanifest options
 [params.webmanifest]
