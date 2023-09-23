@@ -41,9 +41,9 @@ disqusShortname = ''
     url = '/'
     weight = 10
   [[menu.main]]
-    pageRef="posts"
-    name = '~/posts'
-    url = '/posts/'
+    pageRef="blog"
+    name = '~/blog'
+    url = '/blog/'
     weight = 20
   [[menu.main]]
     pageRef="about"
@@ -84,9 +84,9 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Felipe Pereira"
   name = "Felipe Nunes de Almeida Pereira"
-  description = "B.Sc student of Computer Engineering"
-  descriptionOne = "Software Engineer | Backend"
-  descriptionTwo = "Distributed Systems"
+  description = "Software Engineer & Researcher"
+  descriptionOne = ""
+  descriptionTwo = ""
   descriptionThree = ""
 
 # Allow to override webmanifest options
