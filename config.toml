@@ -51,9 +51,9 @@ disqusShortname = ''
     url = '/about/'
     weight = 30
   [[menu.main]]
-    pageRef="else"
-    name = '~/else'
-    url = '/about/'
+    pageRef="curriculum"
+    name = '~/curriculum'
+    url = '/curriculum/'
     weight = 30
 
 [params]
